@@ -4,5 +4,5 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,md,mdx}",
   ],
   theme: { extend: {} },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
